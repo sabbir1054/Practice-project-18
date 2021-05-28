@@ -1,0 +1,463 @@
+
+html,
+body {
+    overflow-x: hidden;
+}
+/*
+= = = = = = = = = -----------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container_wrapper{
+    background-color: #33362F;
+}
+/* HEADER PART CSS */
+.header_bg {
+    background-image: url(../assets/img/photo.png);
+   background-size: cover;
+   background-position: center center ;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+ 
+
+}
+.header{
+        margin-bottom: 17%;
+}
+#navbarNav {
+  
+    justify-content: flex-end;
+}
+
+
+.navigation nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: unset !important;
+}
+.navigation .navbar-light .navbar-nav .nav-link {
+    color: #9BAF6D !important;
+    font-size: 200%;
+    padding: 10px 30px;
+    padding-top: 3%;
+}
+.navigation .navbar-light .navbar-nav .nav-link:hover {
+    color: #b6fb1b !important;
+    transform: scale(1.1);
+}
+.bar_icon .fas, .fa-bars{
+    color:white;
+    font-weight:600;
+    font-size: 24px;
+}
+
+.header_element li.first {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.header_element li.second{
+    
+    padding-top: 3%;
+    color: #9BAF6D;
+    padding-bottom: 8%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 6px;
+
+} 
+.header_element li.second:hover{
+    color: #c0ee53;
+
+} 
+.header_element .two {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 3%;
+    
+}
+.header_element .button .btn{
+    
+    border-radius: unset;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+.header_element .button .btn-primary{
+    color: #c1da868c !important;
+    background-color: rgb(68 88 20 / 41%) !important;
+    border-color: #364234 !important;
+    font-size: 2rem;
+    letter-spacing: 7px;
+    font-weight: bold;
+
+}
+.header_element .button .btn-primary:hover{
+    color: #aadf31d5 !important;
+    background-color: #22381e !important;
+    border-color: #364234 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* ABOUT COOK CSS PART */
+
+
+.about_cook_bg{
+    background-color: #212121;
+        overflow: hidden;
+}
+.about_cook .cook_left{
+    color: white;
+    padding: 5%;
+    padding-bottom: 3%;
+}
+.about_cook .cook_left img{
+    margin-bottom: 5%;
+    margin-left: 13%; 
+}
+.about_cook .cook_left p{
+    padding: 0% 13%;
+}
+
+
+/* ABOUT FEATURE CSS PART */
+
+.feature_bg{
+    background-color: #45493B;
+    color: white;
+    padding: 5% 0%;
+}
+.about_feature .af1, .af2{
+ padding-right:10%;
+}
+
+/* TRADITIONAL MENU CSS PART */
+
+.full_traditional_menu_bg{
+    background-color: #212121;
+    padding-top: 10%;
+    padding-bottom: 5%;
+     
+}
+
+.traditional_menu_bg {
+   background-color: #45493B;
+   overflow: auto;
+   overflow-x: hidden;
+   
+}
+.traditional_menu_bg img{
+    padding-top: 6%;
+}
+.traditional_menu_bg h3{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.traditional_menu_bg h3:hover{
+    transform: scale(1.2);
+    color:#aadf31d5;
+    transition: all 0.3s ease;
+    
+}
+
+/* OUR LIKE SECTION CSS PAPRT */
+
+.like_bg{
+    background-color: #3E4136;
+}
+.like_bg .like{
+    padding: 8%;
+}
+.like_bg .like .write{
+ display: block;margin-left: auto;margin-right: auto;
+}
+.like_bg .like .dot img{
+    padding: 0%;
+}
+.like_bg .like p{
+    color: white;
+    text-align: justify;
+    padding: 0% 10%;
+}
+/* BIG PHOTO & MENU CSS PART */
+
+.big_photo img{
+    width: 100%;
+    height: auto;
+
+}/* 
+.new_menu{
+    position: absolute;
+    margin-top: -104%;
+    width: 100%;
+} */
+.new_menu_bg_img {
+    background-image: url(../assets/img/big1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 16%;
+    padding-bottom: 69%;
+}
+
+.new_menu_bg{
+    background-color: #3E4136;
+    padding: 5% 0%;
+}
+.new_menu .write2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.new_menu .new_menu_caption {
+    color: white;
+    font-weight: 400;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.new_menu .menu_list_left{
+    padding-left:10%;
+}
+.new_menu .menu_list_left ul li{
+    padding:2% 0%;
+}
+.new_menu .menu_list_left ul li:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    
+}
+.new_menu .menu_list_left ul li img{
+    margin-left: 5px;
+}
+.new_menu .menu_list_left ul li p{
+    margin-left: 7px;
+    color: white;
+    padding-right: 10%;
+}
+/************ BOOKING CSS PART************* */
+input{
+   width: 100%;
+}
+.booking{
+    background-color: #212121;
+    width:100%;
+    padding: 2% 5%;
+    
+}
+.booking .row{
+    margin-bottom: 5% !important;
+}
+.booking img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+
+} 
+
+.boooking label{
+    color:white;
+}
+.booking input{
+    width:100%;
+}
+
+.boooking .people .form-control {
+   padding:unset !important;
+   background-color: #212121;
+   border: 2px solid white;
+    border-right:none ;
+}
+.boooking .people .btn-outline-secondary.dropdown-toggle {
+    border: 1.5px solid#ffffff;
+    border-left:none;
+    
+}
+.boooking .people .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+    border: 1px solid#ffffff;
+    border-left:none;
+    
+}
+
+.boooking .date_mail .date input,.name input, .email input, .mail input, .time input, .phone input{
+    background-color: #212121;
+    border: 2px solid white ;
+    border-radius: 5px;
+    color:white;
+}
+.submit_button .btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.submit_button .btn{
+    padding: .375rem 8.4rem;
+}
+.date_mail,.submit_button .btn-primary {
+    color: #fff;
+    border-color: #ffffff;
+    background-color: #212121;
+}
+
+.submit_button .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #151515;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+
+.big_photo2 img{
+    width: 100%;
+}
+
+.new_menu2_bg{
+    background-color: #3E4136;
+}
+
+.menu2 .write3{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5%;
+}
+.menu2_caption{
+    font-weight: 400;
+    color: white;
+    padding-bottom: 4%;
+}
+.card_all{
+    padding-bottom:10%;
+}
+
+.card_all .card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px #fff0f0;
+    transition: all 0.5s ease;
+}
+
+.card-body a{
+    color: black;
+    border-bottom: 4px solid black;
+    font-weight: 600;
+}
+.card-body a:hover{
+    padding:2% 5%;
+    background-color: #364234;
+    color:white;
+    border: 2px solid rgb(17, 148, 56);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    
+}
+.social_bg{
+    background-color: #212121;
+    color:white;
+    padding: 5% 0%;
+}
+.footer_top img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 0%;
+}
+.social ul{
+    justify-content: center;
+}
+.social ul li{
+    margin-left: 5%;
+}
+
+.social ul li:first-child{
+    margin-left: 0%;
+}
+.social ul li i.fab.fa-facebook-f {
+    background-color: white;
+    color: black;
+    padding: 115% 150%;
+    border-radius: 20px;
+}
+.social ul li i.fab.fa-facebook-f:hover{
+    background-color: #AFC67B;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+    color:#1773EA;
+    }
+
+.social ul li i.fa-twitter{
+    background-color: white;
+    color: black;
+    padding: 72%;
+    border-radius: 30px;
+}
+.social ul li i.fa-twitter:hover{
+    background-color: #AFC67B;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+    color:#1C9CEA;
+}
+
+.fa-pinterest-p{
+    background-color: white;
+    color: black;
+    padding: 104% 125%;
+    border-radius: 20px;
+}
+.fa-pinterest-p:hover{
+    background-color: #AFC67B;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+    color:#DF0022;
+}
+.fa-instagram{
+    background-color: white;
+    color: black;
+    padding: 82%;
+    border-radius: 30px;
+}
+.fa-instagram:hover{
+    background-color: #AFC67B;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+    color:#A32E8B;
+}
+ .fa-google-plus-g {
+    background-color: white;
+    color: black;
+    padding: 62%;
+    border-radius: 20px;
+}
+.fa-google-plus-g:hover {
+    background-color: #AFC67B;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+    color:#D5463A;
+}
+
+.footer_top p{
+        padding: 0% 35%;
+}
+.footer_bg{
+    background-color: #33362F;
+    color:white;
+    padding:5% 0%;
+    padding-bottom: 2%;
+}
+ .footer_list{
+   padding-left: 23%;
+} 
+.footer_list ul li {
+    color:white;
+ }
+.footer_list ul li:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    color:#AFC67B;
+    cursor: pointer;
+ }
