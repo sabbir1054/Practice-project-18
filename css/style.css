@@ -163,6 +163,9 @@ body {
     transition: all 0.3s ease;
     
 }
+.gallary_row-2{
+    flex-direction: row-reverse;
+}
 
 /* OUR LIKE SECTION CSS PAPRT */
 
