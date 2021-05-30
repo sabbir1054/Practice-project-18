@@ -270,7 +270,14 @@ input{
 .booking input{
     width:100%;
 }
-
+.people,
+.name,
+.date,
+.email,
+.time,
+.phone {
+    margin: 0% 10%;
+}
 .boooking .people .form-control {
    padding:unset !important;
    background-color: #212121;
@@ -293,6 +300,7 @@ input{
     border: 2px solid white ;
     border-radius: 5px;
     color:white;
+    padding: 5px;
 }
 .submit_button .btn{
     margin-left: auto;

@@ -117,7 +117,9 @@
 .second .two {
     font-size: 4rem;
 }
-
+.submit_button .btn {
+    padding: .375rem 4.4rem;
+}
 .header_element .button .btn-primary {
     font-size: 1.5rem;
     letter-spacing: 5px;
